@@ -1,0 +1,207 @@
+USE [Pnp_Store]
+GO
+
+/****** Object:  View [dbo].[pnp_sales_master]    Script Date: 3/2/2026 2:21:26 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+ALTER VIEW [dbo].[pnp_sales_master]
+
+as
+
+SELECT [ProductID]
+      ,[Barcode]
+      ,[ProductName]
+      ,[Category]
+      ,[StoreID]
+      ,[StoreName]
+      ,[Province]
+      ,[CashierName]
+      ,[SaleDate]
+      ,[Quantity]
+      ,[UnitPrice]
+      ,[TotalAmount]
+  FROM [Pnp_Store].[dbo].[1772032136184_pnp_sales_2025_01]
+  UNION ALL
+  SELECT [ProductID]
+      ,[Barcode]
+      ,[ProductName]
+      ,[Category]
+      ,[StoreID]
+      ,[StoreName]
+      ,[Province]
+      ,[CashierName]
+      ,[SaleDate]
+      ,[Quantity]
+      ,[UnitPrice]
+      ,[TotalAmount]
+  FROM [Pnp_Store].[dbo].[1772032148926_pnp_sales_2025_02]
+
+  UNION ALL
+  
+   SELECT [ProductID]
+      ,[Barcode]
+      ,[ProductName]
+      ,[Category]
+      ,[StoreID]
+      ,[StoreName]
+      ,[Province]
+      ,[CashierName]
+      ,[SaleDate]
+      ,[Quantity]
+      ,[UnitPrice]
+      ,[TotalAmount]
+  FROM [Pnp_Store].[dbo].[1772032159369_pnp_sales_2025_03]
+
+UNION ALL
+
+  SELECT [ProductID]
+      ,[Barcode]
+      ,[ProductName]
+      ,[Category]
+      ,[StoreID]
+      ,[StoreName]
+      ,[Province]
+      ,[CashierName]
+      ,[SaleDate]
+      ,[Quantity]
+      ,[UnitPrice]
+      ,[TotalAmount]
+  FROM [Pnp_Store].[dbo].[1772032170316_pnp_sales_2025_04]
+
+  UNION ALL
+
+  SELECT [ProductID]
+      ,[Barcode]
+      ,[ProductName]
+      ,[Category]
+      ,[StoreID]
+      ,[StoreName]
+      ,[Province]
+      ,[CashierName]
+      ,[SaleDate]
+      ,[Quantity]
+      ,[UnitPrice]
+      ,[TotalAmount]
+  FROM [Pnp_Store].[dbo].[1772032179739_pnp_sales_2025_05]
+
+  UNION ALL
+
+  SELECT [ProductID]
+      ,[Barcode]
+      ,[ProductName]
+      ,[Category]
+      ,[StoreID]
+      ,[StoreName]
+      ,[Province]
+      ,[CashierName]
+      ,[SaleDate]
+      ,[Quantity]
+      ,[UnitPrice]
+      ,[TotalAmount]
+  FROM [Pnp_Store].[dbo].[1772032189879_pnp_sales_2025_06]
+
+  UNION ALL
+
+  SELECT [ProductID]
+      ,[Barcode]
+      ,[ProductName]
+      ,[Category]
+      ,[StoreID]
+      ,[StoreName]
+      ,[Province]
+      ,[CashierName]
+      ,[SaleDate]
+      ,[Quantity]
+      ,[UnitPrice]
+      ,[TotalAmount]
+  FROM [Pnp_Store].[dbo].[1772032202072_pnp_sales_2025_07]
+
+  UNION ALL
+
+  SELECT [ProductID]
+      ,[Barcode]
+      ,[ProductName]
+      ,[Category]
+      ,[StoreID]
+      ,[StoreName]
+      ,[Province]
+      ,[CashierName]
+      ,[SaleDate]
+      ,[Quantity]
+      ,[UnitPrice]
+      ,[TotalAmount]
+  FROM [Pnp_Store].[dbo].[1772032214258_pnp_sales_2025_08]
+
+   UNION ALL
+
+  SELECT [ProductID]
+      ,[Barcode]
+      ,[ProductName]
+      ,[Category]
+      ,[StoreID]
+      ,[StoreName]
+      ,[Province]
+      ,[CashierName]
+      ,[SaleDate]
+      ,[Quantity]
+      ,[UnitPrice]
+      ,[TotalAmount]
+  FROM [Pnp_Store].[dbo].[1772032224900_pnp_sales_2025_09]
+
+  UNION ALL
+
+  SELECT [ProductID]
+      ,[Barcode]
+      ,[ProductName]
+      ,[Category]
+      ,[StoreID]
+      ,[StoreName]
+      ,[Province]
+      ,[CashierName]
+      ,[SaleDate]
+      ,[Quantity]
+      ,[UnitPrice]
+      ,[TotalAmount]
+  FROM [Pnp_Store].[dbo].[1772032236969_pnp_sales_2025_10]
+
+  UNION ALL
+  SELECT [ProductID]
+      ,[Barcode]
+      ,[ProductName]
+      ,[Category]
+      ,[StoreID]
+      ,[StoreName]
+      ,[Province]
+      ,[CashierName]
+      ,[SaleDate]
+      ,[Quantity]
+      ,[UnitPrice]
+      ,[TotalAmount]
+  FROM [Pnp_Store].[dbo].[1772032108507_pnp_sales_2025_11]
+
+  UNION ALL
+
+  SELECT [ProductID]
+      ,[Barcode]
+      ,[ProductName]
+      ,[Category]
+      ,[StoreID]
+      ,[StoreName]
+      ,[Province]
+      ,[CashierName]
+      ,[SaleDate]
+      ,[Quantity]
+      ,[UnitPrice]
+      ,[TotalAmount]
+  FROM [Pnp_Store].[dbo].[1772032261154_pnp_sales_2025_12]
+
+
+GO
+
+
